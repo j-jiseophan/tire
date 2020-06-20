@@ -14,3 +14,5 @@ function alarm(){
     alert("🚨 Don't miss me! 🚨");
   }, 1000 * duration);
 }
+
+alarm();
