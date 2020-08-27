@@ -1,5 +1,5 @@
   
-function time(){
+function now(){
   if (args.length !== 0) {
     const errorMsg = "Error: try again with 'now";
     stream.writeStderr(errorMsg);
@@ -10,4 +10,4 @@ function time(){
   stream.writeStdout(outputMsg);
 }
 
-time();
+now();
